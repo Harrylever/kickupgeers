@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px; /* Provides depth for the 3D effect */
+}
+.rotateY-180 {
+  transform: rotateX(180deg); /* The flip effect */
+}
+
+#back-to-top {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
