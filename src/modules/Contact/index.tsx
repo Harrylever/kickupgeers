@@ -1,6 +1,7 @@
 import ContactForm from "./ContactForm"
-import { FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -31,7 +32,7 @@ const Contact = () => {
                 {/* Address */}
                 <p className="inline-flex gap-1 text-[#4B4B4B]">
                   <FaLocationDot size={20} className="mt-0.5" />
-                  <span> 28 Agip Road, Rumueme Mile 4, Port harcourt.</span>
+                  <span>28 Agip Road, Rumueme Mile 4, Port harcourt.</span>
                 </p>
 
                 <a
@@ -39,14 +40,28 @@ const Contact = () => {
                   className="inline-flex gap-1 text-[#4B4B4B] group"
                 >
                   <FaPhone size={14} className="mt-1" />
-                  <span className="group-hover:underline">+234 803 587 8467</span>
+                  <span className="group-hover:underline">
+                    +234 803 587 8467
+                  </span>
                 </a>
                 <a
                   href="tel:+2348090600151"
                   className="inline-flex gap-1 text-[#4B4B4B] group"
                 >
                   <FaPhone size={14} className="mt-1 opacity-0" />
-                  <span className="group-hover:underline">+234 809 060 0151</span>
+                  <span className="group-hover:underline">
+                    +234 809 060 0151
+                  </span>
+                </a>
+
+                <a
+                  href="mailto:info@kickupgeers.com"
+                  className="inline-flex gap-1 text-[#4B4B4B] group"
+                >
+                  <MdEmail size={17} className="mt-[0.3rem]" />
+                  <span className="group-hover:underline">
+                    info@kickupgeers.com
+                  </span>
                 </a>
               </div>
             </div>

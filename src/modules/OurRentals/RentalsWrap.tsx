@@ -80,6 +80,12 @@ const rentals: IRentalItem[] = [
     description: "",
     rating: "4",
   },
+  {
+    img: "/jpg/truck-14.jpg",
+    name: "",
+    description: "",
+    rating: "4",
+  },
 ]
 
 const RentalsWrap = () => {

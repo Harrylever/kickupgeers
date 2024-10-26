@@ -2,7 +2,7 @@ import RentalsWrap from "./RentalsWrap"
 
 const OurRentals = () => {
   return (
-    <section className="pt-[5rem+120px] md:pt-[calc(4rem+120px)] relative xl:h-[170vh] w-full px-12">
+    <section className="pt-[5rem+120px] md:pt-[calc(4rem+120px)] relative xl:h-[190vh] w-full px-12">
       <div className="w-full max-w-[1400px] mx-auto">
         <div className="w-full flex flex-col items-end gap-6">
           <p className="hidden md:block text-5xl text-black font-medium">
